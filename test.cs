@@ -15,6 +15,12 @@ namespace DatalayerFs.Serializers
             return current.Id == mTargetId; // Improve check
         }
 
+        internal void ConnectTo(string addr)
+        {
+            // connect to a client ---- changed
+            Net.ConnectTo(addr);
+        }
+
         int mTargetId; // change 2
     }
 

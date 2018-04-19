@@ -18,12 +18,6 @@ namespace Network
             System.IO.Write(buffer);
             // modified on dst
         }
-
-        internal void ConnectTo(string addr)
-        {
-            // connect to a client ---- changed
-            Net.ConnectTo(addr);
-        }
     }
 
     internal class DNS
