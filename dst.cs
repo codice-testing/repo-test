@@ -21,7 +21,7 @@ namespace Network
 
         internal void ConnectTo(string addr)
         {
-            // connect to a client ---- changed
+            // connect to a client -- changed
             Net.ConnectTo(addr);
         }
     }
