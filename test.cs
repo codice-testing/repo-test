@@ -26,7 +26,7 @@ namespace DatalayerFs.Serializers
 
     internal class FindByRepositoryName : IReadCondition<RepositoryRow>
     {
-        internal FindByRepositoryName(string name)//
+        internal FindByRepositoryName(string name)////
         {
             mTargetName = name;
         }
